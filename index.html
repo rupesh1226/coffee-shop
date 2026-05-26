@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Araku Coffee Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#home" class="brand">
+        <span>AC</span>
+        Araku Coffee Shop
+      </a>
+
+      <button class="menu-btn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Coffee from Andhra Pradesh</p>
+        <h1>Araku Coffee Shop</h1>
+        <p>
+          Premium Araku coffee, crafted with a calm cafe feel, rich aroma,
+          and a little surprise in every cup.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="btn primary">Explore Menu</a>
+          <a href="#experience" class="btn ghost">Find Your Flavor</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>100%</strong><span>Araku inspired</span></div>
+          <div><strong>Fresh</strong><span>Roasted beans</span></div>
+          <div><strong>New</strong><span>Coffee chocolate</span></div>
+        </div>
+      </div>
+
+      <div class="hero-image reveal">
+        <img src="images/araku-hero.jpg" alt="Araku coffee landscape" />
+        <div class="floating-card">
+          <span>Today’s pick</span>
+          <strong>Araku Coffee Chocolate</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-image reveal">
+        <img src="images/araku-valley.jpg" alt="Araku Valley Andhra Pradesh" />
+      </div>
+
+      <div class="story-text reveal">
+        <p class="eyebrow">Our Origin</p>
+        <h2>Rooted in Araku Valley</h2>
+        <p>
+          Araku is located in Andhra Pradesh, surrounded by misty hills,
+          coffee farms, tribal culture, and clean natural beauty. This website
+          is designed to feel premium, peaceful, and memorable.
+        </p>
+
+        <div class="badges">
+          <span>Andhra Pradesh</span>
+          <span>Araku Valley</span>
+          <span>Fresh Coffee</span>
+          <span>Chocolate</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu">
+      <div class="section-title reveal">
+        <p class="eyebrow">Signature Menu</p>
+        <h2>Simple, Rich, Interesting</h2>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card reveal">
+          <img src="images/araku-beans.jpg" alt="Araku roasted beans" />
+          <div>
+            <h3>Araku Roasted Beans</h3>
+            <p>Deep aroma, smooth body, and a clean roasted finish.</p>
+            <strong>From Rs. 320</strong>
+          </div>
+        </article>
+
+        <article class="menu-card reveal">
+          <img src="images/araku-filter.jpg" alt="Araku filter coffee" />
+          <div>
+            <h3>Filter Coffee Powder</h3>
+            <p>Strong South Indian style coffee for daily brewing.</p>
+            <strong>From Rs. 180</strong>
+          </div>
+        </article>
+
+        <article class="menu-card feature reveal">
+          <img src="images/araku-chocolate.jpg" alt="Araku coffee chocolate" />
+          <div>
+            <span class="new-label">New</span>
+            <h3>Araku Coffee Chocolate</h3>
+            <p>Dark chocolate blended with roasted Araku coffee notes.</p>
+            <strong>From Rs. 140</strong>
+          </div>
+        </article>
+
+        <article class="menu-card reveal">
+          <img src="images/araku-cafe.jpg" alt="Araku cafe drink" />
+          <div>
+            <h3>Araku Cold Brew</h3>
+            <p>Slow brewed, smooth, refreshing, and naturally bold.</p>
+            <strong>From Rs. 120</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="section-title reveal">
+        <p class="eyebrow">Small Surprise</p>
+        <h2>Find Your Araku Flavor</h2>
+        <p>Choose your mood and we will suggest a drink.</p>
+      </div>
+
+      <div class="flavor-box reveal">
+        <div class="mood-buttons">
+          <button data-flavor="Strong Filter Coffee">Strong</button>
+          <button data-flavor="Araku Cold Brew">Cool</button>
+          <button data-flavor="Araku Coffee Chocolate">Sweet</button>
+          <button data-flavor="Fresh Roasted Beans">Classic</button>
+        </div>
+
+        <div class="flavor-result">
+          <span>Your match</span>
+          <strong id="flavorText">Pick your mood</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-title reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2>Araku Visual Story</h2>
+      </div>
+
+      <div class="gallery-grid reveal">
+        <img src="images/araku-hero.jpg" alt="Araku coffee" />
+        <img src="images/araku-valley.jpg" alt="Araku valley" />
+        <img src="images/araku-beans.jpg" alt="Coffee beans" />
+        <img src="images/araku-chocolate.jpg" alt="Coffee chocolate" />
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-info reveal">
+        <p class="eyebrow">Visit or Order</p>
+        <h2>Contact Araku Coffee Shop</h2>
+        <p><b>Location:</b> Kakinada, Andhra Pradesh</p>
+        <p><b>Phone:</b> <a href="tel:9381244907">9876543210</a></p>
+        <p><b>Email:</b> <a href="mailto:rupesh12426@gmail.com">rupesh12426@gmail.com</a></p>
+      </div>
+
+      <form class="contact-form reveal">
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Your email" required />
+        <input type="tel" placeholder="Phone number" required />
+        <textarea placeholder="Your order or message" required></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2026 Araku Coffee Shop</p>
+  </footer>
+
+  <div class="lightbox">
+    <button class="close-lightbox">×</button>
+    <img src="" alt="Gallery preview" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
