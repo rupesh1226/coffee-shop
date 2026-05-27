@@ -16,6 +16,11 @@
 https://rupesh1226.github.io/coffee-shop/
 
 ---
+## Screenshot
+
+![coffee shop](preview.png)
+
+---
 
 ## 📖 About The Project
 
@@ -52,7 +57,7 @@ This project focuses on:
 
 ## 📂 Project Structure
 
-```bash
+```bash 
 coffee-shop/
 │
 ├── index.html
@@ -60,3 +65,39 @@ coffee-shop/
 ├── script.js
 ├── README.md
 └── images/
+```
+---
+## 🚀 Getting Started
+
+To run this project locally:
+```bash
+
+git clone https://github.com/rupesh1226/coffee-shop.git
+```
+---
+## 💡 Future Improvements
+- Add Online Ordering System
+- Add Dark Mode
+- Add Payment Integration
+- Improve Animations
+- Add Backend Support
+---
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve this project:
+
+- Fork the repository
+- Create your feature branch
+- Commit your changes
+- Push to the branch
+- Open a Pull Request
+---
+## 👨‍💻 Author
+Rupesh
+- GitHub: https://github.com/rupesh1226
+
+---
+## ⭐ Support
+If you like this project, give it a ⭐ on GitHub!
