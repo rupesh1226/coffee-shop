@@ -18,7 +18,7 @@ https://rupesh1226.github.io/coffee-shop/
 ---
 ## Screenshot
 
-![coffee shop](preview.png)
+![coffee shop website](preview.png)
 
 ---
 
